@@ -6,6 +6,7 @@ This filter sets the Content-Type header to the supplied init-param value.
 
 Example configuration:
 
+```
 <filter>
   <filter-name>XmlContentTypeSetterFilter</filter-name>
   <filter-class>net.twentyonesolutions.ContentTypeSetterFilter</filter-class>
@@ -22,3 +23,4 @@ Example configuration:
   <filter-name>XmlContentTypeSetterFilter</filter-name>
   <url-pattern>/rest/rss/*</url-pattern>
 </filter-mapping>
+```
